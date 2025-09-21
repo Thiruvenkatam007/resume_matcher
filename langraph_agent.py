@@ -101,6 +101,15 @@ def node_build_report(state: ResumeState) -> ResumeState:
         resume_path_str = state["resume_path"]
         jd = state["jd"]
         parsed = state["parsed_json"]
+        if isinstance(parsed, list):
+            if len(parsed) == 1 and isinstance(parsed[0], dict):
+                parsed = parsed[0]
+            else:
+                state.setdefault("errors", []).append(
+                    f"parsed_json is a list with length {len(parsed)}; expected single dict"
+                )
+                parsed = {}  # fallback to empty dict
+
         candidate = safe_candidate_name_from_file(Path(resume_path_str).name)
         report = {
             "candidate_name": candidate,
