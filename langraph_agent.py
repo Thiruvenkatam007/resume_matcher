@@ -5,6 +5,7 @@ from langgraph.graph import StateGraph, END
 from langgraph.checkpoint.memory import MemorySaver
 from typing import List, Dict, Any, Optional, Tuple
 from utils import *
+import traceback
 # ---------- Graph State ----------
 class ResumeState(TypedDict, total=False):
     jd: Dict[str, Any]
@@ -169,4 +170,5 @@ def run_single_resume_with_graph(jd: Dict[str, Any], resume_path: Path, structur
         return final_state.get("report")
     except Exception as e:
         logging.error(f"Graph failed for {Path(resume_path).name}: {e}")
+        logging.error(traceback.format_exc())  # <-- logs full traceback
         return None
