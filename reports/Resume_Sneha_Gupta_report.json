@@ -1,0 +1,36 @@
+{
+  "candidate_name": "Resume_Sneha_Gupta",
+  "job_title": "Python Backend Developer",
+  "matched_required_skills": [
+    "python",
+    "rest apis"
+  ],
+  "missing_required_skills": [
+    "sql",
+    "version control (git)",
+    "debugging and code review"
+  ],
+  "matched_optional_skills": [
+    "docker",
+    "aws lambda",
+    "fastapi"
+  ],
+  "education_match": "false",
+  "experience_match": "true",
+  "keywords_matched": [
+    "python",
+    "microservices",
+    "cloud-based",
+    "apis"
+  ],
+  "soft_skills_match": [],
+  "resume_summary": "Platform-oriented backend engineer with 5 years of experience specializing in Python and microservices, focusing on developer productivity.",
+  "match_score": 0.7,
+  "city_tier_match": false,
+  "longest_tenure_months": 34,
+  "final_score": 70,
+  "detected_city": "Jaipur",
+  "detected_city_tier": 2,
+  "max_job_gap_months": 1,
+  "max_job_gap_months_check": "Gap between jobs is less than 6 months."
+}

@@ -1,0 +1,35 @@
+{
+  "candidate_name": "Resume_Farhan_Ali",
+  "job_title": "Python Backend Developer",
+  "matched_required_skills": [
+    "python",
+    "rest apis",
+    "sql",
+    "version control (git)"
+  ],
+  "missing_required_skills": [],
+  "matched_optional_skills": [
+    "docker",
+    "aws lambda",
+    "flask",
+    "ci/cd pipelines"
+  ],
+  "education_match": "true",
+  "experience_match": "true",
+  "keywords_matched": [
+    "python",
+    "api",
+    "cloud",
+    "microservices"
+  ],
+  "soft_skills_match": [],
+  "resume_summary": "Backend-focused software engineer with 3.5 years of experience in developing APIs and microservices, proficient in Python and cloud technologies.",
+  "match_score": 0.95,
+  "city_tier_match": false,
+  "longest_tenure_months": 26,
+  "final_score": 83,
+  "detected_city": "Hyderabad",
+  "detected_city_tier": 2,
+  "max_job_gap_months": 0,
+  "max_job_gap_months_check": "The candidate has continuous employment with no gaps."
+}

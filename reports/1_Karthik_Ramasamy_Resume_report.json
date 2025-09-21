@@ -1,0 +1,41 @@
+{
+  "candidate_name": "1_Karthik_Ramasamy_Resume",
+  "job_title": "Python Backend Developer",
+  "matched_required_skills": [
+    "python",
+    "rest apis",
+    "sql",
+    "version control (git)"
+  ],
+  "missing_required_skills": [
+    "debugging and code review"
+  ],
+  "matched_optional_skills": [
+    "docker",
+    "aws lambda",
+    "flask",
+    "ci/cd pipelines"
+  ],
+  "education_match": "Bachelor's Degree in Computer Science is met.",
+  "experience_match": "Candidate has over 3 years of relevant experience.",
+  "keywords_matched": [
+    "scalable",
+    "apis",
+    "cloud-based",
+    "microservices",
+    "architectural design"
+  ],
+  "soft_skills_match": [
+    "mentoring",
+    "team success"
+  ],
+  "resume_summary": "Backend developer with over 3 years of experience in building scalable APIs and cloud-based microservices using Python, AWS, and CI/CD.",
+  "match_score": 0.85,
+  "city_tier_match": true,
+  "longest_tenure_months": 36,
+  "final_score": 85,
+  "detected_city": "Trichy",
+  "detected_city_tier": 2,
+  "max_job_gap_months": 0,
+  "max_job_gap_months_check": "Candidate has continuous work history with no job gaps."
+}
