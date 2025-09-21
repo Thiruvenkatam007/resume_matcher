@@ -71,7 +71,7 @@ def main():
     workers = st.slider("Number of parallel workers", 1, 8, 2)
     topk = st.number_input("Top-K resumes to evaluate (leave 0 to use all)", min_value=0, value=5)
     topk_frac = st.slider("Fraction of resumes to consider (if Top-K not set)", 0.1, 1.0, 0.4)
-    model = st.selectbox("Choose LLM model", ["qwen/qwen2.5-vl-72b-instruct:free", "nvidia/nemotron-nano-9b-v2:free", "gpt-4o-mini"])
+    model = st.selectbox("Choose LLM model", ["qwen/qwen2.5-vl-72b-instruct:free", "nvidia/nemotron-nano-9b-v2:free"])
 
     if st.button("🚀 Run Resume Matching", type="primary"):
         # Clear reports before every run
