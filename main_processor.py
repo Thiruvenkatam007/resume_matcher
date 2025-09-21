@@ -1,6 +1,6 @@
 
 from langraph_agent import *
-# ---------- UPDATED process_all ----------
+
 def process_all(job_description_file: str, resumes_folder: str, workers: int = 2, model: str = "gpt-4o-mini", topk: Optional[int] = None, topk_frac: float = 0.4) -> None:
     reports_dir = Path("reports"); reports_dir.mkdir(exist_ok=True)
 
