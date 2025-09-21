@@ -1,29 +1,50 @@
-streamlit==1.41.1
-langgraph==0.6.7
-langgraph-checkpoint==2.1.1
-langchain==0.3.8
-langchain-openai==0.2.10
-langchain-community==0.3.9
-pydantic==2.11.4
-backoff==2.2.1
-numpy==1.26.4
-PyYAML==6.0.2
-# sentence-transformers==3.0.1
-# transformers==4.52.4
+# streamlit==1.41.1
+# langgraph==0.6.7
+# langgraph-checkpoint==2.1.1
+# langchain==0.3.8
+# langchain-openai==0.2.10
+# langchain-community==0.3.9
+# pydantic==2.11.4
+# backoff==2.2.1
+# numpy==1.26.4
+# PyYAML==6.0.2
+# # sentence-transformers==3.0.1
+# # transformers==4.52.4
+# # torch==2.7.1
+# # torchvision==0.22.1
+# # torchaudio==2.2.1
+# scikit-learn==1.5.2
+# scipy==1.14.0
+# nltk==3.9.1
+# tqdm==4.67.1
+# regex==2024.11.6
+# filelock==3.15.4
+# huggingface-hub==0.33.0
+# tokenizers==0.21.1
+
 # torch==2.7.1
 # torchvision==0.22.1
-# torchaudio==2.2.1
-scikit-learn==1.5.2
-scipy==1.14.0
-nltk==3.9.1
-tqdm==4.67.1
-regex==2024.11.6
-filelock==3.15.4
-huggingface-hub==0.33.0
-tokenizers==0.21.1
+# torchaudio==2.7.1
+# sentence-transformers==3.4.1
+# transformers>=4.41.0
 
-torch==2.7.1
-torchvision==0.22.1
-torchaudio==2.7.1
-sentence-transformers==3.4.1
-transformers>=4.41.0
+
+streamlit==1.49.1
+langchain==0.3.27
+langgraph==0.6.7
+langgraph-checkpoint==2.1.1
+langchain-community==0.3.29
+langchain-text-splitters==0.3.9
+langchain-chroma==0.2.6
+langchain-mistralai==0.2.11
+langchain-openai==0.3.33
+chromadb==1.0.21
+FlashRank==0.2.10
+pdfminer.six==20250506
+rapidocr-onnxruntime==1.4.4
+huggingface-hub==0.34.4
+sentence-transformers==5.1.0
+torch==2.8.0
+tqdm==4.67.1
+pydantic==2.11.7
+pysqlite3-binary
