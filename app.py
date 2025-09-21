@@ -18,18 +18,25 @@ DEFAULT_RESUMES_DIR = BASE_DIR / "resumes"
 REPORTS_DIR = BASE_DIR / "reports"
 UPLOADS_DIR = BASE_DIR / "uploads"
 
+import shutil
+from pathlib import Path
+import logging
 
 # ---------- HELPERS ----------
 def clear_folder(folder: Path):
-    """Delete all files inside a folder."""
+    """Delete all files and subfolders inside a folder."""
     if folder.exists():
-        for f in folder.glob("*"):
+        for f in folder.iterdir():
             try:
-                f.unlink()
+                if f.is_file() or f.is_symlink():
+                    f.unlink()
+                elif f.is_dir():
+                    shutil.rmtree(f)
             except Exception as e:
                 logging.error(f"Could not delete {f}: {e}")
     else:
         folder.mkdir(parents=True, exist_ok=True)
+
 
 
 def load_reports(reports_dir: Path) -> List[Dict[str, Any]]:
